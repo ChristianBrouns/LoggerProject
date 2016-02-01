@@ -21,16 +21,8 @@ public class TestLogger {
 }
 
 
-/*
-        In TestLogger in jouw standaard main methode
-        met gebruik van LogFactory set the Logger to use to be LogType.SIMPLE.
-        call the method of MyUtils with a string.
-        Run jouw class .
-
-        Stap 11
-        Wijzig de TestLogger class te gebruiken LogType.FANCY
-        Run jouw class.
-
-        Stap 12 Commentaar:....
-
-        */
+/*************************************************************************************************************************************************
+* Commentaar: Door het maken van oa een Factory Class is het eenvoudig om van een Simple logger te switchen naar een meer geavanceerdere logger. *
+* Het is eenvoudiger bij te houden doordat er alleen in de TestLogger wijzigingen worden gemaakt.                                                *
+* Als de basis eenmaal goed werkt, is het ook makkelijk te debuggen.                                                                             *
+**************************************************************************************************************************************************/
