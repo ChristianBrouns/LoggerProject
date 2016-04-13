@@ -7,13 +7,7 @@ import java.util.Date;
 /**
  * Created by Christian on 1-2-2016.
  */
-public class FancyLogging implements Logger {
-//    Logger FancyLogging;
-
-//    void Logger(Logger FancyLogging) {
-//        this.FancyLogging = FancyLogging;
-//        return;
-//    }
+final class FancyLogging implements Logger {
 
     @Override
     public void debug(String msg) {

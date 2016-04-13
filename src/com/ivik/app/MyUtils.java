@@ -10,8 +10,8 @@ import com.ivik.logger.Logger;
 public class MyUtils {
     Logger logger = LogFactory.getLogger();
 
-    public MyUtils(LogType intString) {
-    }
+    public MyUtils(LogType type) {
+            }
 
     public boolean getInt(String intString) {
         boolean ok = false;

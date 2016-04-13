@@ -6,7 +6,7 @@ package com.ivik.logger;
 public class LogFactory {
     private static LogType logType = LogType.SIMPLE;
 
-    private Logger logger;
+    //  private Logger logger;
     public static Logger getLogger() {
 
         switch (logType){
@@ -21,6 +21,7 @@ public class LogFactory {
     }
     public static void setLogger(LogType logType) {
         LogFactory.logType = logType;
+
     }
 }
 

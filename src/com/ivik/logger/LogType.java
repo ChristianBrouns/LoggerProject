@@ -6,3 +6,5 @@ package com.ivik.logger;
 public enum LogType {
     SIMPLE, FANCY
    }
+
+// handig om constants te definieeren. Het moet OF SIMPLE OF FANCY zijn. Voorkomt invoeren van ongeldige waarde voor een LogType.

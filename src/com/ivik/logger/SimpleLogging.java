@@ -4,7 +4,7 @@ package com.ivik.logger;
 /**
  * Created by Christian on 1-2-2016.
  */
-class SimpleLogging implements Logger {
+final class SimpleLogging implements Logger {
 
     @Override
     public void debug(String msg) {
